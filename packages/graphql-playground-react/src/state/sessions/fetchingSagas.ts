@@ -78,7 +78,7 @@ export const defaultLinkCreator = (
   }
 
   const subscriptionClient = new SubscriptionClient(subscriptionEndpoint, {
-    timeout: 20000,
+    timeout: 90000,
     lazy: true,
     connectionParams,
   })
